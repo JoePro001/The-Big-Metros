@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-US">
+<head>
+  <!--
+      Final Project by Carl Provost
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Big Metros</title>
+  <link href="../css/reset.css" rel="stylesheet" />
+  <link href="../css/provostcarl_mylayout.css" rel="stylesheet" />
+  <link href="../css/provostcarl_style.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <img src="../images/LOGO.jpg" alt="skyline" />
+    <nav class="navBar">
+        <div class="container">
+      <ul>
+        <li><a href="list25_16.html">List 25-16</a></li>
+        <li><a href="list15_6.html">List 15-6</a></li>
+        <li><a href="list5_1.html">List 5-1</a></li>
+        <li><a href="past.html">Past Decades</a></li>
+        <li><a href="ref.html">References</a></li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+<p>
+  <a href="#top">Return To Top</a>
+</p>
+  <footer>
+  <p>&#127970; &copy; 2022, All rights reserved. &#127970;</p>
+</footer>
+</body>
+</html>

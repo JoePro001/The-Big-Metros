@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+
+
+h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+.home-article {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.home-article h1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.home-article p {
+	font-size: 16px;
+}
+
+.regions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.table-wrapper {
+	max-height: 600px;
+	overflow: scroll;
+}
+
+.img-wrapper {
+	width: 200px;
+}
+
+.img-wrapper img {
+	width: 100%;
+}
+
+.list25-wrapper {
+	flex-wrap: wrap;
+}
+
+.metro-item1 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20px;
+	padding: 10px 0 0 10px;
+	margin-right: 20px;
+	border: 1px solid black;
+	width: 360px;
+	background-color: rgb(255, 85, 85);
+}
+.metro-item2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20px;
+	padding: 10px 0 0 10px;
+	margin-right: 20px;
+	border: 1px solid black;
+	width: 360px;
+	background-color: rgb(245, 245, 245);
+}
+.metro-item3 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20px;
+	padding: 10px 0 0 10px;
+	margin-right: 20px;
+	border: 1px solid black;
+	width: 360px;
+	background-color: rgb(110, 110, 255);
+}
+.list25-wrapper h2, .list25-wrapper h3, .list25-wrapper h4 {
+	font-weight: bold;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.list25-wrapper span {
+	font-weight: 500;
+	display: inline-block;
+}
+
+.box-wrapper {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.linkRef {
+	background-color: rgba(100, 150, 200, 0.5);
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.linkRef a {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.files {
+	margin-bottom: 30px;
+}
+
+.linkRef h1 {
+	margin-bottom: 30px;
+}
+
+.ref {
+	font-size: 24px;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	margin-bottom: 25px;
+}
+tr, td, th {
+	border: 1px solid black;
+	text-align: center;
+}
+
+td, th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+tr:nth-child(even) {
+	background-color: lightgray;
+}
+
+th {
+	font-size: 18px;
+	font-weight: bolder;
+	background-color: rgb(200, 150, 150);
+}
+
+.table-cen tr th{
+	width: 50%
+}
